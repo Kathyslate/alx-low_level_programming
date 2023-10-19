@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-int main(void);
+/**
+ * main - Entry point
+ * Description: 'printing magic'
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 	int n;
 	int a[5];
@@ -8,7 +13,7 @@ int main(void);
 
 	a[2] = 1024;
 	p = &n;
-	/**
+	/*
 	* write your line of code here...
 	* Remember:
 	* - you are not allowed to use a
