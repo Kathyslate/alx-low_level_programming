@@ -29,7 +29,7 @@ if ! gcc -shared -o liball.so *.o; then
 fi
 
 # Copy the dynamic library to the current directory
-if ! cp liball.so ..; then
+if ! cp liball.so .; then
     echo "Error: Failed to copy dynamic library to current directory"
     exit 1
 fi
