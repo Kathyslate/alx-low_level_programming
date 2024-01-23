@@ -26,8 +26,11 @@ int main() {
             }
         }
     }
+    char result[10];
+    sprintf(result, "%d", largest_palindrome);
+    result[6] = '\0'; // remove the trailing newline character
     FILE *f = fopen("102-result", "w");
-    fprintf(f, "%d", largest_palindrome);
+    fprintf(f, "%s", result);
     fclose(f);
     return 0;
 }
