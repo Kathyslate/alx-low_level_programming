@@ -3,6 +3,8 @@
 /**
  * hash_table_delete - Deletes a hash table.
  * @ht: the hash table.
+ *
+ * description: returns no value
  */
 void hash_table_delete(hash_table_t *ht)
 {
